@@ -5,6 +5,8 @@ allowed-tools: Read Grep Bash Edit Write
 user-invocable: true
 ---
 
+> ⚠️ **AVISO FISCAL — CONFIRA ANTES DE GERAR A GUIA.** Todo código de receita (DARF/DAS), alíquota, base de cálculo, valor e data de vencimento gerado por este agente é **rascunho de apoio** e pode variar por ano, regime tributário, município ou caso específico. **Confira sempre na fonte oficial vigente (Receita Federal / e-CAC / legislação estadual e municipal) antes de transmitir declaração ou pagar guia.** A conferência final é responsabilidade do contador responsável.
+
 ## Quando usar
 
 PJ que faturou até R$ 78 milhões no ano-calendário anterior e optou pelo Lucro Presumido (Lei 9.430/96, art. 13). Apuração trimestral (mar/jun/set/dez). Use também para clientes saindo do Simples e migrando.

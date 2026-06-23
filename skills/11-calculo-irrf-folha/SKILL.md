@@ -5,6 +5,8 @@ allowed-tools: Read Grep Bash Edit Write
 user-invocable: true
 ---
 
+> ⚠️ **AVISO FISCAL — CONFIRA ANTES DE GERAR A GUIA.** Todo código de receita (DARF/DAS), alíquota, base de cálculo, valor e data de vencimento gerado por este agente é **rascunho de apoio** e pode variar por ano, regime tributário, município ou caso específico. **Confira sempre na fonte oficial vigente (Receita Federal / e-CAC / legislação estadual e municipal) antes de transmitir declaração ou pagar guia.** A conferência final é responsabilidade do contador responsável.
+
 ## Quando usar
 
 Toda vez que houver pagamento de PJ a PF tributável: salário, pró-labore, autônomo, aluguel, RPA, comissões. Apuração na competência de cada pagamento. Vencimento dia 20 do mês subsequente (DARF código varia).

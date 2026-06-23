@@ -5,6 +5,8 @@ allowed-tools: Read Grep Bash Edit Write
 user-invocable: true
 ---
 
+> ⚠️ **AVISO FISCAL — CONFIRA ANTES DE GERAR A GUIA.** Todo código de receita (DARF/DAS), alíquota, base de cálculo, valor e data de vencimento gerado por este agente é **rascunho de apoio** e pode variar por ano, regime tributário, município ou caso específico. **Confira sempre na fonte oficial vigente (Receita Federal / e-CAC / legislação estadual e municipal) antes de transmitir declaração ou pagar guia.** A conferência final é responsabilidade do contador responsável.
+
 ## Quando usar
 
 Empresas no Lucro Real/Presumido (e Simples acima do sublimite) que vendem ou compram mercadorias sujeitas a ICMS. Use também para Simples nas operações com ST, antecipação ou DIFAL.

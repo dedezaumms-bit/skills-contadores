@@ -5,6 +5,8 @@ allowed-tools: Read Grep Bash Edit Write
 user-invocable: true
 ---
 
+> ⚠️ **AVISO FISCAL — CONFIRA ANTES DE GERAR A GUIA.** Todo código de receita (DARF/DAS), alíquota, base de cálculo, valor e data de vencimento gerado por este agente é **rascunho de apoio** e pode variar por ano, regime tributário, município ou caso específico. **Confira sempre na fonte oficial vigente (Receita Federal / e-CAC / legislação estadual e municipal) antes de transmitir declaração ou pagar guia.** A conferência final é responsabilidade do contador responsável.
+
 ## Quando usar
 
 Microempreendedor Individual (LC 123/2006, art. 18-A) com receita anual até R$ 81.000 (proporcional para início de atividade), atividade permitida pela Resolução CGSN 140/2018 (Anexo XI), sem sócios, com no máximo 1 empregado.

@@ -5,6 +5,8 @@ allowed-tools: Read Grep Bash Edit Write
 user-invocable: true
 ---
 
+> ⚠️ **AVISO FISCAL — CONFIRA ANTES DE GERAR A GUIA.** Todo código de receita (DARF/DAS), alíquota, base de cálculo, valor e data de vencimento gerado por este agente é **rascunho de apoio** e pode variar por ano, regime tributário, município ou caso específico. **Confira sempre na fonte oficial vigente (Receita Federal / e-CAC / legislação estadual e municipal) antes de transmitir declaração ou pagar guia.** A conferência final é responsabilidade do contador responsável.
+
 ## Quando usar
 
 Empresa com folha de pagamento que precisa apurar INSS patronal mensal. Empresas dos setores beneficiados pela desoneração (Lei 14.973/2024 — transição até 2027) podem optar pela CPRB. Lucro Real, Presumido e Simples Anexo IV aplicam.
