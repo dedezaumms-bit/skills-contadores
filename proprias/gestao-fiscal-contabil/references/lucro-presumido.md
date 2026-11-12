@@ -28,4 +28,4 @@ Serviços em geral com receita anual até R$ 120 mil podem usar 16% no IRPJ.
 - ISS/ICMS conforme atividade; retenções como tomador (IRRF 1,5%, CSRF 4,65%, INSS 11%, ISS).
 - Declarações: DCTFWeb com MIT, EFD-Contribuições, EFD-Reinf, eSocial, ECF; ECD se distribuir lucro acima da base presumida líquida de tributos.
 - **Lucros**: isento o lucro presumido menos tributos; para distribuir mais, é preciso escrituração contábil (ECD). Retenção de 10% acima de R$ 50 mil/mês por sócio.
-- 2026: destacar CBS/IBS nas notas (`reforma-tributaria.md`).
+- 2026: destacar CBS/IBS nas notas (`reforma-tributaria.md`); para 2027, `regras-2027.md`.

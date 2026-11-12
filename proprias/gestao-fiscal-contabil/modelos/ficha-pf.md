@@ -1,6 +1,6 @@
 # <Nome ou apelido> — ficha fiscal (pessoa física)
 
-Guardar CPF e valores fora de repositório versionado; aqui, só a estrutura.
+Esta ficha fica na pasta da pessoa, nunca dentro da skill nem em repositório.
 
 ## Perfil
 - Dependentes; cônjuge declara em conjunto ou separado

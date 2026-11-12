@@ -17,6 +17,6 @@ Valores e prazos: `tabelas-2026.md` e `calendario-obrigacoes.md`. Cálculo: `scr
 - DEFIS anual. Estadual: DeSTDA/DIFAL conforme UF.
 
 ## Pontos de atenção 2026
-- **Distribuição de lucros**: isenta dentro do lucro contábil apurado (com escrituração) ou do limite presumido; acima de R$ 50 mil/mês por sócio, retenção de 10% (ver tabelas — aplicação ao Simples contestada, tratar como vigente).
-- Sem CBS/IBS em 2026.
+- **Distribuição de lucros**: isenta dentro do lucro contábil apurado (com escrituração) ou do limite presumido; acima de R$ 50 mil/mês por sócio, retenção de 10% (a Receita confirma a aplicação ao Simples; ver ressalva nas tabelas).
+- Sem CBS/IBS em 2026. Para 2027 há escolha semestral sobre IBS/CBS, com cancelamento até 30/11/2026 (`regras-2027.md`).
 - Monitorar todo mês: RBT12 perto de R$ 3,6 mi e R$ 4,8 mi; fator R perto de 28%; excesso de receita acima de 20% do limite (exclusão retroativa).

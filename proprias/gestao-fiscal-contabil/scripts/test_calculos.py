@@ -22,4 +22,6 @@ assert p["irpj"] == D("12750.00") and p["adicional"] == D("2500.00") and p["csll
 p = presumido_trimestre(2000000, "0.32", "0.32", trimestre=2)
 assert p["base_irpj"] == D("664000.00") == p["base_csll"]
 assert presumido_trimestre(2000000, "0.32", "0.32", trimestre=1)["base_csll"] == D("640000.00")
+assert dividendos_irrf(50000) == D("0.00") and dividendos_irrf(50000.01) == D("5000.00")
+assert irpfm_aliquota(600000) == D("0") and irpfm_aliquota(750000) == D("2.5000") and irpfm_aliquota(2000000) == D("10")
 print("ok")

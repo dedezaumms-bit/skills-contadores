@@ -137,6 +137,25 @@ def presumido_trimestre(receita, pct_irpj, pct_csll, outras_receitas=0, trimestr
             "base_csll": r2(base_csll), "csll": r2(csll)}
 
 
+# ---------- Lucros e dividendos / alta renda (Lei 15.270/2025) ----------
+DIV_LIMITE_MES = D("50000")
+
+
+def dividendos_irrf(total_pago_no_mes):
+    """Total que UMA pessoa juridica pagou a UMA pessoa fisica no mes.
+    Acima de R$ 50.000, 10% sobre o total (DARF 1841). Ate R$ 50.000, zero."""
+    t = D(total_pago_no_mes)
+    return r2(t * D("0.10")) if t > DIV_LIMITE_MES else D("0.00")
+
+
+def irpfm_aliquota(renda_anual_total):
+    """Aliquota (%) do IRPF minimo: 0 ate 600 mil; linear ate 10% em 1,2 milhao."""
+    r = D(renda_anual_total)
+    if r <= D("600000"):
+        return D("0")
+    return min(r / D("60000") - D("10"), D("10")).quantize(D("0.0001"))
+
+
 def pis_cofins_cumulativo(receita_base):
     b = D(receita_base)
     return {"pis": r2(b * D("0.0065")), "cofins": r2(b * D("0.03"))}

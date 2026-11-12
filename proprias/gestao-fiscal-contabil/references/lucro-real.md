@@ -22,4 +22,4 @@ Valores e prazos: `tabelas-2026.md` e `calendario-obrigacoes.md`.
 - Retenções como tomador, ISS/ICMS conforme atividade.
 - Declarações: DCTFWeb com MIT, EFD-Contribuições, EFD-Reinf, eSocial, ECD, ECF.
 - Lucros: retenção de 10% acima de R$ 50 mil/mês por sócio.
-- 2026: destacar CBS/IBS nas notas (`reforma-tributaria.md`).
+- 2026: destacar CBS/IBS nas notas (`reforma-tributaria.md`); para 2027, `regras-2027.md`.
