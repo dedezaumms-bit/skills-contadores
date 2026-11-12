@@ -1,12 +1,12 @@
 # Skills próprias
 
-`apuracao-fiscal/` — skill única para apurar o fiscal das empresas e das pessoas físicas.
+| Skill | Papel | Situação |
+|---|---|---|
+| `pericia-documental/` | Diagnóstico interno: examina os documentos como um perito, aponta o que está sem lastro, monta a lista de busca e dimensiona a exposição | Método e script prontos; ainda não rodou com dados reais |
+| `apuracao-fiscal/` | Primeira versão das regras fiscais de 2026 e do script de cálculo | Será substituída pela skill de gestão, com regras reconferidas e 2027 |
 
-- `SKILL.md`: método e regras de uso.
-- `references/`: base comum (tabelas 2026, calendário, regras por regime, reforma tributária).
-- `entidades/`: uma ficha por empresa ou pessoa (`_modelo-pj.md`, `_modelo-pf.md`, `mt-concreto.md`).
-- `scripts/calculos.py`: INSS, IRRF com redutor, DAS do Simples, Lucro Presumido com LC 224. Teste: `python scripts/test_calculos.py`.
+Skill de gestão (apuração, conferência, balanço e DRE paralelos, folha, pessoas físicas): a construir.
 
-Instalação: compactar a pasta `apuracao-fiscal` e enviar em Configurações → Skills do Claude, ou copiar para `.claude/skills/`.
+Nenhum dado de empresa ou pessoa deve ser gravado neste repositório. Fichas, documentos e resultados ficam na pasta local do usuário.
 
-As 57 skills em `skills/` ficaram como material de consulta; não instalar (conteúdo de 2024/2025).
+Testes: `python proprias/pericia-documental/scripts/test_lastro.py` e `python proprias/apuracao-fiscal/scripts/test_calculos.py`.
