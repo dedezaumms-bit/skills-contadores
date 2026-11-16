@@ -4,9 +4,16 @@ Primeira frente da skill. Vale para qualquer empresa; o que muda entre elas est�
 
 ## Sequência
 1. **Inventário das fontes** do mês (`01-ENTRADA`): conferir contra a lista da ficha. Faltou fonte essencial: avisar, seguir com o que há e marcar a apuração como parcial.
+   - Conferir o **conteúdo**, não só a existência: planilha só com cabeçalho, PDF sem texto, ZIP de outro período e pasta vazia contam como "falta".
+   - Conferir a **cobertura de datas** de cada fonte (primeiro e último dia do mês) e a qual CNPJ pertence.
+   - Material baixado por trimestre ou em outra estrutura de pastas é aceito como está: separar por competência na base de documentos, sem mover arquivos.
+   - **Só PDF, sem XML**: a apuração do tributo que depende daquele documento fica bloqueada para o mês; não digitar valores de PDF como se fossem a base. Exceção: documento que não existe em XML (fatura, recibo, nota de outro município sem padrão nacional) entra por leitura do PDF, marcado como tal.
+   - Notas emitidas faltando = **sem base de receita**: o mês não fecha. Dizer isso na primeira linha da resposta.
 2. **Base de documentos**: uma linha por documento único. Campos mínimos: origem, tipo (NFS-e, NF-e, CT-e, fatura, recibo), sentido (emitida/recebida), situação (ativa/cancelada/substituída), chave ou número, emissão, competência, CNPJ/CPF da contraparte, município, valor, base, alíquotas, cada retenção, IBS/CBS destacados, arquivo de origem.
    - Deduplicar por chave de acesso; sem chave, por CNPJ + número + valor.
    - Cancelada não some: fica marcada e fora das somas.
+   - Manifestação do destinatário: contar as NF-e recebidas sem ciência/confirmação por mês. Salto no volume é pendência, e nota desconhecida contra o CNPJ deve ser recusada no portal dentro do prazo.
+   - NF-e em que a empresa aparece só como **transportadora** não é compra nem receita: registrar à parte e conferir se é transporte de carga própria (sem CT-e) ou serviço de frete a terceiros (exige CT-e e ICMS).
 3. **Cruzamentos** entre fontes (XML × relatório do portal × sistema de gestão × lançamentos manuais × extrato quando disponível). Divergência = linha com gravidade e ação.
 4. **Apuração**, na ordem: tributos sobre a receita (DAS, ou PIS/COFINS e ISS/ICMS) → retenções sofridas → retenções a recolher como tomadora → IRPJ/CSLL (mensal por estimativa, trimestral, ou só acompanhamento da base) → conferência do destaque de IBS/CBS.
    - Usar `scripts/calculos.py`. Aplicar as particularidades da ficha.

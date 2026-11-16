@@ -13,6 +13,7 @@ Objetivo: demonstrações próprias, montadas a partir dos documentos, para comp
    - Imobilizado: aquisições, depreciação (taxa contábil na ficha), baixas.
    - Financiamentos: principal, juros por competência, curto × longo prazo.
    - Sócios: pró-labore, lucros, mútuos, reembolsos — cada um em conta própria por sócio.
+   - **Permutas** (venda paga com mercadoria ou serviço): são duas operações, cada uma com sua nota e pelo valor justo — a venda gera receita e tributos, a aquisição gera custo ou ativo. A conta de permuta é só o encontro das duas e deve zerar por contraparte; saldo é valor a receber ou a pagar.
 4. **Movimento sem documento ou sem classificação segura**: vai para a conta `1.1.9 Valores a regularizar` (saídas) ou `2.1.9 Valores a regularizar` (entradas), com histórico do que se sabe. Nunca diluir em despesa genérica. O saldo dessas contas é indicador do fechamento.
 5. **Conciliações obrigatórias** antes de fechar: bancos (saldo contábil = extrato), clientes e fornecedores (composição por título), tributos (saldo = guias a vencer), folha (saldo = líquidos e encargos a pagar), sócios (extrato por sócio).
 6. **Demonstrações**: balancete, balanço patrimonial, DRE (mês, trimestre, acumulado), fluxo de caixa pelo método direto, mutações do patrimônio líquido.

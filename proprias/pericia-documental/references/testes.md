@@ -9,11 +9,16 @@ Cada teste gera achados com: período, valor, documento examinado, o que falta. 
 4. Pagamento a terceiro diferente do emitente do documento.
 5. Saques e pagamentos em espécie; valores redondos repetidos; fracionamento de valores no mesmo dia.
 6. Despesa sem relação aparente com a atividade (uso pessoal provável).
+7. Reembolso de cartão ou despesa pessoal sem a fatura e sem a nota de cada gasto.
+8. Compras em cartão da empresa sem documento fiscal por item da fatura.
+9. Pagamentos por conta que não tem extrato (conta de pagamento, benefícios, "saque").
 
 ## B. Entradas bancárias
 1. Entrada sem nota emitida correspondente.
 2. Entrada de pagador diferente do tomador da nota.
 3. Entrada de sócio ou parte relacionada sem contrato (aporte, mútuo, devolução).
+5. Recursos de fomento mercantil, antecipação ou empréstimo sem contrato ou borderô.
+6. Permuta: venda paga em mercadoria ou serviço sem nota das duas pontas, ou conta de permuta com saldo sem composição.
 4. Depósito em espécie ou de origem não identificada.
 
 ## C. Notas emitidas
@@ -30,6 +35,8 @@ Cada teste gera achados com: período, valor, documento examinado, o que falta. 
 
 ## E. Sócios, administrador e partes relacionadas
 1. Toda transferência entre a empresa e cada parte relacionada, por ano: pró-labore, lucros, reembolsos, empréstimos, aluguéis, outros.
+   - Seguir o dinheiro entre contas próprias: saída da empresa para outra conta da empresa seguida de saída para a pessoa é uma operação só.
+   - Lucros acima de R$ 50 mil no mês para a mesma pessoa, a partir de 2026: houve retenção de 10%?
 2. Lucros distribuídos × lucro contábil apurado × proporção do contrato social × deliberação escrita.
 3. Pró-labore pago × folha × contrato social.
 4. Despesas pessoais pagas pela empresa; uso de cartão empresarial.
