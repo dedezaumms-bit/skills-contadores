@@ -26,6 +26,7 @@ Cada teste gera achados com: período, valor, documento examinado, o que falta. 
 2. **Nota sem evidência de prestação**: sem registro no sistema operacional (produção, remessa, volume, obra, equipamento), sem contrato, pedido ou medição.
 3. Nota cujo recebimento foi seguido, em poucos dias, de saída de valor próximo para terceiro (entrada e repasse casados). Registrar o par, os valores e as datas.
 4. Canceladas e substituídas: sequência numérica, motivo, recebimento do valor cancelado.
+5. Total de notas emitidas × faturamento registrado no sistema operacional, por mês e por cliente.
 
 ## D. Notas recebidas
 1. Nota sem pagamento localizado, ou paga a outra pessoa.
@@ -41,6 +42,10 @@ Cada teste gera achados com: período, valor, documento examinado, o que falta. 
 3. Pró-labore pago × folha × contrato social.
 4. Despesas pessoais pagas pela empresa; uso de cartão empresarial.
 5. Bens da empresa em uso por sócios, e bens de sócios em uso pela empresa.
+7. Retirada tratada como lucro em período com prejuízo acumulado.
+8. Administrador sem pró-labore em folha e com retiradas no período.
+9. Entrada registrada como aporte de capital vinda de quem não é sócio.
+10. Venda de ativo sem nota, sem contrato ou com parcelas baixadas fora de conta bancária.
 6. Tratamento igual entre sócios: o mesmo tipo de retirada ocorreu para os demais? (dado relevante de contexto, registrar sem concluir).
 
 ## F. Pessoal

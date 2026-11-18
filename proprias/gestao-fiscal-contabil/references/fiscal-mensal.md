@@ -5,6 +5,8 @@ Primeira frente da skill. Vale para qualquer empresa; o que muda entre elas est�
 ## Sequência
 1. **Inventário das fontes** do mês (`01-ENTRADA`): conferir contra a lista da ficha. Faltou fonte essencial: avisar, seguir com o que há e marcar a apuração como parcial.
    - Conferir o **conteúdo**, não só a existência: planilha só com cabeçalho, PDF sem texto, ZIP de outro período e pasta vazia contam como "falta".
+   - Antes de declarar uma planilha vazia, **reler o arquivo inteiro**: exportações de alguns portais trazem o metadado de dimensão errado e a leitura rápida devolve só o cabeçalho (ler com pandas, ou openpyxl sem `read_only`, e contar as linhas).
+   - Conferir a quem pertence cada documento recebido de terceiros (CNPJ e razão social no próprio arquivo): guia ou livro de outra empresa enviado por engano é pendência a devolver.
    - Conferir a **cobertura de datas** de cada fonte (primeiro e último dia do mês) e a qual CNPJ pertence.
    - Material baixado por trimestre ou em outra estrutura de pastas é aceito como está: separar por competência na base de documentos, sem mover arquivos.
    - **Só PDF, sem XML**: a apuração do tributo que depende daquele documento fica bloqueada para o mês; não digitar valores de PDF como se fossem a base. Exceção: documento que não existe em XML (fatura, recibo, nota de outro município sem padrão nacional) entra por leitura do PDF, marcado como tal.
@@ -14,6 +16,8 @@ Primeira frente da skill. Vale para qualquer empresa; o que muda entre elas est�
    - Cancelada não some: fica marcada e fora das somas.
    - Manifestação do destinatário: contar as NF-e recebidas sem ciência/confirmação por mês. Salto no volume é pendência, e nota desconhecida contra o CNPJ deve ser recusada no portal dentro do prazo.
    - NF-e em que a empresa aparece só como **transportadora** não é compra nem receita: registrar à parte e conferir se é transporte de carga própria (sem CT-e) ou serviço de frete a terceiros (exige CT-e e ICMS).
+   - Sequência numérica das notas emitidas: todo salto precisa de explicação (inutilização, cancelamento, salto do emissor) confirmada no portal ou no livro da prefeitura.
+   - **Faturamento do sistema de gestão × notas emitidas**, por mês e por cliente. Diferença relevante não é arredondada nem atribuída a "prazo" sem prova: abrir cliente a cliente e classificar (nota sem produção registrada, produção sem nota, serviço fora do sistema, faturamento antecipado ou atrasado).
 3. **Cruzamentos** entre fontes (XML × relatório do portal × sistema de gestão × lançamentos manuais × extrato quando disponível). Divergência = linha com gravidade e ação.
 4. **Apuração**, na ordem: tributos sobre a receita (DAS, ou PIS/COFINS e ISS/ICMS) → retenções sofridas → retenções a recolher como tomadora → IRPJ/CSLL (mensal por estimativa, trimestral, ou só acompanhamento da base) → conferência do destaque de IBS/CBS.
    - Usar `scripts/calculos.py`. Aplicar as particularidades da ficha.
